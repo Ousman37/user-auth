@@ -1,0 +1,39 @@
+{
+  "name": "user-auth",
+  "version": "1.0.0",
+  "description": "Enables secure user authentication and authorization, allowing users to log in, manage profiles, and access protected resources.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ousman37/user-auth.git"
+  },
+  "keywords": [
+    "authentication",
+    "authorization",
+    "security",
+    "user",
+    "management",
+    "access",
+    "control"
+  ],
+  "author": "Ethmane <Ousman.didibela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ousman37/user-auth/issues"
+  },
+  "homepage": "https://github.com/Ousman37/user-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
